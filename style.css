@@ -62,3 +62,9 @@ th, td{
 th{
     background-color: #d4d1d0;
 }
+h1{
+    font-family: verdana;
+    font-size: 20;
+    color: darkgoldenrod;
+    font-weight: 600px;
+}
