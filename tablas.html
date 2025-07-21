@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla y listas</title>
+    <style type="text/css">
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        h1{
+            color: red;
+        }
+        ul{
+            list-style-type: upper-roman;
+            margin-left: 10px;
+        }
+        table{
+            background-color: darkgrey;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td{
+            border: 1px solid black; 
+            padding: 6px;
+        }
+        th{
+            background-color: #d4d1d0;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: #000000;
+        }
+        footer{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+    </style>
+</head>
+<body>
+    <header title="listas y tabla">
+        <h1>Bienvenidos al aprendizaje de listas y tablas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contactenos</a></li>
+                <li><a href="#Servicio">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="listas">
+        <h1>listas y tablas en html</h1>
+        <h2>listas de redes sociales</h2>
+        <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter (X)</li>
+        </ul>
+    </section>
+    <section id="acerca">
+        <h2>Tabla de redes sociales</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre Red Social</th> 
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="IMAGENES/instagram.jpg" width="30%" height="50%"></td>
+                <td>Instagram</td>
+                <td>
+                    <p align="justify">
+                        Instagram es una red social y aplicación móvil propiedad de Meta, donde los usuarios pueden compartir fotos y videos, interactuar con otros usuarios a través de comentarios y "me gusta", y explorar contenido de diferentes cuentas. También permite funciones como historias, videos en directo, Reels y videollamadas. 
+                    |</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="IMAGENES/facebook.jpg" width="30%" height="50%"></td>
+                <td>Facebook </td>
+                <td>
+                    <p align="justify">
+                        Facebook es la principal red social que existe en el mundo. Una red de vínculos virtuales, cuyo principal objetivo es dar un soporte para producir y compartir contenidos. Llegó para ampliar las posibilidades de relación social y causó una revolución sensible en el mundo de las comunicaciones.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="IMAGENES/twitter.jpg" width="30%" height="50%"></td>
+                <td>Twitter (X)</td>
+                <td>
+                    <p align="justify">
+                        Twitter, ahora conocido como X, esun servicio de microblogging y red social donde los usuarios comparten mensajes de texto cortos, imágenes y vídeos llamados "tweets"Es una plataforma para compartir información en tiempo real que conecta a millones de usuarios en todo el mundo. Los usuarios pueden seguirse entre sí e interactuar con el contenido mediante "me gusta", retuits y mensajes directos. 
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>    
+    </section>
+    <section>
+        <section id="Contacto">
+            <h2>Seccion de contacto</h2>
+            <p>
+                Si tienes dudas y deseas resolverlas favor contactarme al wapshapp o al correo electronico
+            </p>
+            <!-- si deas agregar mas contenido o puede hacer-->
+             <footer>
+                <p>
+                    &copy; Autor: Ruben Dario Diaz H. 2025 - Mi primera tabla con listas
+                </p>
+             </footer>
+        </section>
+    </section>
+</body>
+</html>
